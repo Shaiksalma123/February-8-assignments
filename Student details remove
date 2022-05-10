@@ -1,0 +1,6 @@
+d={1:'ramu',2:15,3:'kakinada'}
+print(d.keys())
+print(d.values())
+print(d.items())
+d.pop(2)
+print(d)
