@@ -1,0 +1,13 @@
+ class solution:
+def check prime(self,n):
+    prime=True
+for i in range(2,n):
+    if n%i==0:
+        prime=False
+break
+return prime
+def count primes (self,n:int)->int:
+    count 0
+    for i in range(1,n):
+        if self.check prime(i):
+            count+=1
